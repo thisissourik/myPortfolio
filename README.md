@@ -1,6 +1,5 @@
 # myPortfolio
 
-![Project Preview](path/to/preview/image.png) <!-- If you have a preview image, add the path here -->
 
 Welcome to myPortfolio! This project serves as a central repository for storing and showcasing my personal portfolio. It includes details about my skills, projects, and achievements. Additionally, I plan to host a website built on this repository to display my portfolio online.
 
