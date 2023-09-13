@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+            <img src="/images/Portfolio.png" class="portfolioLogo" alt="Logo">
+        </div>
+        <div class="right">
+          <ul>
+            <a href=""><li>Home</li></a>
+            <a href=""><li>About</li></a>
+            <a href=""><li>Contact</li></a>
+            <a href="Resume.txt" target="_blank"><li>Resume</li></a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="first">
+        <div class="leftSection">
+          Hi my name is <span class="purple">Sourik</span>
+
+          <div>
+            And I am a passionate<br />
+            <!--<span>Web Developer</span> -->
+            <span id="element"></span>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="/images/Dev_Me.png" alt="developerImage" />
+        </div>
+      </section>
+      <hr>
+      <section class="second">
+        <h1>Tech Stack</h1>
+        <img src="/images/Full Stack.png" alt="" class="work-experience">
+      </section>
+    </main>
+
+   <div class="footer">
+    Copyright &copy; 2023 Sourik Karmakar
+    <div class="links">
+        <a href="https://www.linkedin.com/in/sourikkarmakar/" target="_blank">Linkedin</a>
+        <a href="https://github.com/thisissourik" target="_blank">Github</a>
+        <a href="https://www.instagram.com/thisissourik/" target="_blank">Instagram</a>
+    </div>
+   </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Full Stack Developer.",
+          "Java Developer.",
+          "Machine Learning Enthusiast.",
+        ],
+        typeSpeed: 60,
+      });
+    </script>
+  </body>
+</html>
